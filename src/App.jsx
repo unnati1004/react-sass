@@ -6,6 +6,7 @@ import { Companies } from './components/companies/companies'
 import { Pricing } from './components/pricing/pricing'
 import { Earnings } from './components/earnings/earnings'
 import { Status } from './components/status/statsus'
+import { Subscribe } from './components/subscribe/Subscribe'
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
     <Pricing/>
     <Earnings/>
     <Status/>
+    <Subscribe/>
     </>
   )
 }
